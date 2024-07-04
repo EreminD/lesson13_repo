@@ -3,7 +3,7 @@ package org.example;
 import java.util.Objects;
 
 public class User {
-
+    public static final String ID = "MY_SUPER_BRANCH";
     private final int id;
     private final String name;
 
