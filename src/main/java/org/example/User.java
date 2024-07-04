@@ -20,6 +20,9 @@ public class User {
         return name;
     }
 
+    public void sayHello(){
+        System.out.println("Hello!");
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
