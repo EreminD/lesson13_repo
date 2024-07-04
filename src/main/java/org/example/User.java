@@ -3,6 +3,7 @@ package org.example;
 import java.util.Objects;
 
 public class User {
+    public static final String ID = "main";
 
     private final int id;
     private final String name;
